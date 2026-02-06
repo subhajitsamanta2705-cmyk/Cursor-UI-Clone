@@ -34,4 +34,6 @@ This project recreates the layout, sections, and overall structure of Cursor’s
     ```
 3. Open index.html and preview using live server extension
 
+## Image: ![Screenshot_6-2-2026_204435_127 0 0 1](https://github.com/user-attachments/assets/a2825053-691a-4274-a11c-3b922c4cb914)
+
 
