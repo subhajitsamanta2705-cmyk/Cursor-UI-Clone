@@ -1,0 +1,454 @@
+        @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            /* margin: 0 5rem; */
+            background-color: #161616;
+            color: #ffffff;
+        }
+
+        .logo img {
+            height: 1.5rem;
+        }
+
+        .logo h3 {
+            font-size: 0.8rem;
+            font-family: "Montserrat";
+        }
+
+        .nav li {
+            list-style: none;
+        }
+
+        .nav li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 0.7rem;
+        }
+
+        .btns button {
+            margin: 0 0.2rem;
+            padding: 0.3rem 0.7rem;
+            border-radius: 2rem;
+            border: none;
+            font-size: 0.7rem;
+        }
+
+        #sign-in {
+            background-color: #000000;
+            color: #ffffff;
+            box-shadow: 0px 0px 0px 1px gray;
+        }
+
+        #download {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            padding: 0.5rem 5rem;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            background-color: #161616;
+        }
+
+        .nav {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        main {
+            margin: 0 5rem;
+        }
+
+        .hero-section {
+            margin-top: 6.5rem;
+        }
+
+        .hero-section p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.4rem;
+
+        }
+
+        #cta {
+            margin-top: 1.2rem;
+            padding: 0.6rem 0.9rem;
+            font-size: 0.8rem;
+            border: none;
+            border-radius: 3rem;
+            background-color: rgb(225, 224, 224);
+            color: #000000;
+        }
+
+        .hero-image img {
+            border-radius: 0.3rem;
+            margin-top: 3rem;
+            width: 100%;
+        }
+
+        .trusted-by p {
+            margin-top: 2.5rem;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        .companies {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .company-image {
+            height: 5rem;
+            width: 7.8rem;
+            background-color: #222121;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.3rem;
+        }
+
+        .company-image img {
+            width: 4rem;
+            background-color: transparent;
+        }
+
+        .feature-card {
+            margin-top: 4rem;
+            width: 100%;
+            background-color: #212121;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            justify-items: center;
+            align-items: center;
+            border-radius: 0.3rem;
+        }
+
+        .feature-card2 {
+            margin-top: 4rem;
+            width: 100%;
+            background-color: #212121;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            justify-items: center;
+            align-items: center;
+            border-radius: 0.3rem;
+        }
+
+        .feature-text p {
+            font-size: 1.1rem;
+            color: #ffffff
+        }
+
+        .feature-text a {
+            color: red;
+            text-decoration: none;
+        }
+
+        .feature-text p:nth-child(2) {
+            color: rgb(135, 133, 133);
+            margin-bottom: 0.7rem;
+        }
+
+        .feature-image {
+            margin: 0.5rem;
+        }
+
+        .feature-image img {
+            border-radius: 0.3rem;
+            width: 100%;
+        }
+
+        .heading {
+            margin-top: 7rem;
+            margin-bottom: 3rem;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        .card {
+            height: 11rem;
+            width: 22rem;
+            border-radius: 0.2rem;
+            background-color: #1f1f1f;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card p {
+            font-size: 0.85rem;
+            margin: 0.8rem 0.5rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 11rem;
+        }
+
+        .author {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            margin-left: 0.8rem;
+        }
+
+        .author p {
+            margin: 0rem;
+            font-size: 0.8rem;
+        }
+
+        .working {
+            color: gray;
+        }
+
+        .author img {
+            height: 2.1rem;
+            border-radius: 0.3rem;
+        }
+
+        .frontier {
+            font-size: 1.5rem;
+            margin-bottom: 1.3rem;
+        }
+
+        .frontier-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.7rem;
+            margin-bottom: 9rem;
+        }
+
+        .card-2 {
+            width: 22rem;
+            background-color: #1c1b1b;
+            border-radius: 0.5rem;
+        }
+
+        .text-1 {
+            font-size: 0.85rem;
+            padding-top: 0.7rem;
+            padding-left: 0.7rem;
+        }
+
+        .text-2 {
+            font-size: 0.85rem;
+            color: gray;
+            padding-left: 0.7rem;
+        }
+
+        .text-3 {
+            padding-top: 0.9rem;
+            padding-left: 0.7rem;
+        }
+
+        .text-3 a {
+            text-decoration: none;
+            color: red;
+            font-size: 0.85rem;
+        }
+
+        .frontier-image {
+            padding: 0.9rem 0.7rem;
+        }
+
+        .frontier-image img {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+
+        .change-log p {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .change-log div a {
+            text-decoration: none;
+            color: red;
+            font-size: 0.85rem;
+        }
+
+        .changelog-link {
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+        }
+
+        .changelog-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.5rem;
+        }
+
+        .changelog-card {
+            width: 16rem;
+            background-color: #1a1a1a;
+            border-radius: 0.4rem;
+        }
+
+        .changelog-card:hover {
+            background-color: #383838;
+        }
+
+        .changelog-card p {
+            font-size: 0.85rem;
+            margin: 0.9rem 0.7rem;
+        }
+
+        .changelog-card div {
+            font-size: 0.85rem;
+            padding-top: 1.1rem;
+            color: gray;
+        }
+
+        .rating {
+            box-shadow: 0px 0px 0px 1px gray;
+            border-radius: 0.7rem;
+            padding: 0.1rem 0.3rem;
+            margin: 0 0.7rem;
+        }
+
+        .date {
+            margin-left: 0.7rem;
+        }
+
+        .about {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            justify-items: center;
+            align-items: center;
+            background-color: #1f1f1f;
+            margin-bottom: 7rem;
+        }
+
+        .about-link {
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+
+        .about-link a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .about-image {
+            padding: 1rem;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 0.7rem;
+        }
+
+        .recent {
+            padding-top: 4rem;
+            background-color: #1f1f1f;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            justify-items: center;
+        }
+        .card-3 {
+            width: 33rem;
+            padding: 0.7rem;
+            font-size: 0.88rem;
+            margin-bottom: 0.8rem;
+            background-color: #1c1c1c;
+            border-radius: 0.4rem;
+        }
+        .card-3:hover{
+            background-color: #383838;
+        }
+        .recent-text-2{
+            color: gray;
+            margin-top: 0.5rem;
+        }
+        .recent-text-3{
+            margin-top: 0.9rem;
+            color: gray;
+        }
+        .recent-link{
+            margin-top:0.8rem ;
+            margin-bottom: 4rem;
+        }
+        .recent-link a{
+            text-decoration: none;
+            color: red;
+            font-size: 0.85rem;
+        }
+        .main-cta{
+            height: 55vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0.7rem;
+        }
+        .main-cta p{
+            font-size: 3.5rem;
+        }
+        .main-cta button{
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            border-radius: 2.3rem;
+            border: none;
+        }
+        footer{
+            background-color:#1c1c1c;
+        }
+        .section-1{
+            padding-top: 3.5rem;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            justify-items: center;
+        }
+        .section-1 ul{
+            list-style: none;
+            font-size: 0.7rem;
+        }
+        .section-1 ul li:first-child{
+            color: gray;
+        }
+        .section-1 ul li{
+            margin: 0.7rem 0rem;
+        }
+        .section-2{
+            padding-top: 5rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            justify-items: center;
+            padding-bottom: 1rem;
+        }
+        .section-2 div{
+            color: gray;
+            font-size: 0.8rem;
+        }
+        .footer-btns{
+            grid-column: 3/4;
+        }
+        .footer-btns select{
+            font-size: 0.8rem;
+            background-color: #1c1b1b;
+            color: #ffffff;
+            border: none;
+            padding: 0.2rem 0.4rem;
+            box-shadow: 0px 0px 0px 1px gray;
+            border-radius: 3rem;
+        }
